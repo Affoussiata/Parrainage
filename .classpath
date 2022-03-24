@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/OUATTARA AFFOUSSIATA/eclipse-workspace/exécutable/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/OUATTARA AFFOUSSIATA/eclipse-workspace/exécutable/fontawesomefx-8.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/OUATTARA AFFOUSSIATA/eclipse-workspace/exécutable/fontawesomefx-8.9-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/OUATTARA AFFOUSSIATA/eclipse-workspace/exécutable/itextpdf-5.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/OUATTARA AFFOUSSIATA/eclipse-workspace/exécutable/itextpdf-5.4.3-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/OUATTARA AFFOUSSIATA/eclipse-workspace/exécutable/javax.mail.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/OUATTARA AFFOUSSIATA/eclipse-workspace/exécutable/jfoenix-8.0.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/OUATTARA AFFOUSSIATA/eclipse-workspace/exécutable/mail-5.1.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MaLibrairie"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

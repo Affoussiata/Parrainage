@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="652.0" style="-fx-background-color: #B29884;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="applicationView.enregistrementEtudiantController">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="664.0" layoutX="8.0" layoutY="1.0" opacity="0.81" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="-6.0">
+         <image>
+            <Image url="@../images/imEtudiant2.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="BOTTOM_CENTER" layoutX="180.0" layoutY="53.0" prefHeight="19.0" prefWidth="212.0" text="INSCRIRE ETUDIANT" textFill="#141010" underline="true">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="6.0" prefHeight="35.0" prefWidth="644.0" text="SYSTEME DE PARRAINAGE DE L'UNIVERSITE POLYTECHNIQUE DE BINGERVILLE (UPB)" textFill="#140f0f" underline="true">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="106.0" text="NOM :" textFill="#000000fb">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="NomEtude" layoutX="272.0" layoutY="104.0" onAction="#openNomEtude" />
+      <Label layoutX="173.0" layoutY="150.0" text="PRENOMS :" textFill="#171010">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="PrenomEtude" layoutX="272.0" layoutY="148.0" onAction="#openPrenomEtude" />
+      <Label layoutX="184.0" layoutY="196.0" text="GENRE :" textFill="#070202">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="298.0" />
+      <TextField fx:id="genreEtude" layoutX="272.0" layoutY="194.0" onAction="#opengenreEtude" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="168.0" layoutY="238.0" text="MATRICULE :" textFill="#0a0707">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="matriculeEtude" layoutX="272.0" layoutY="236.0" onAction="#openmatriculeEtude" />
+      <Label layoutX="194.0" layoutY="280.0" text="FILIERE :" textFill="#110b0b">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="191.0" layoutY="327.0" text="CYCLE :" textFill="#141010">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Button fx:id="btn_Enregistrer" layoutX="470.0" layoutY="388.0" mnemonicParsing="false" onAction="#openEnregistrer" prefHeight="35.0" prefWidth="110.0" text="ENREGISTRER" textFill="#d72323" />
+      <MenuButton fx:id="menuFiliere" layoutX="268.0" layoutY="278.0" mnemonicParsing="false" onAction="#openmenuFiliere" prefHeight="25.0" prefWidth="131.0" text="MenuButton">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <MenuButton fx:id="menuCycle" layoutX="271.0" layoutY="325.0" mnemonicParsing="false" onAction="#openmenuCycle" prefHeight="25.0" prefWidth="131.0" text="MenuButton">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="parrainage" match-name="cycles"/>
+  <table-filter match-catalog="parrainage" match-name="etudiants"/>
+  <table-filter match-catalog="parrainage" match-name="filieres"/>
+  <table-filter match-catalog="parrainage" match-name="niveaus"/>
+  <table-filter match-catalog="parrainage" match-name="parcours"/>
+</hibernate-reverse-engineering>
